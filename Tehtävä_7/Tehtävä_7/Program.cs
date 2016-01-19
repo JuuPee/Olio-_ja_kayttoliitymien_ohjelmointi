@@ -23,13 +23,13 @@ namespace Tehtävä_7
             {
                 Console.WriteLine("Vuosi on karkausvuosi.");
             }
-            else if (jaollisuus1 == 0)
+            else if (jaollisuus1 == 0) <========= onkelma
             {
                 Console.WriteLine("hastag Vuosi on karkausvuosi.");
             }
-            else if (jaollisuus1 == 0)
+            else if (jaollisuus1 != 0)
             {
-                Console.WriteLine("Vuosi on karkausvuosi.");
+                Console.WriteLine("Vuosi ei ole karkausvuosi.");
             }
             else
             {
