@@ -19,15 +19,19 @@ namespace Tehtävä_7
             jaollisuus1 = vuosiluku % 4;
             jaollisuus2 = vuosiluku % 400; 
 
-            if (jaollisuus2 == 0)
+            if (jaollisuus1 == 0)
             {
                 Console.WriteLine("Vuosi on karkausvuosi.");
             }
-            else if (jaollisuus1 == 0) <========= onkelma
+            else if (jaollisuus2 == 0)  // <========= onkelma
             {
-                Console.WriteLine("hastag Vuosi on karkausvuosi.");
+                if (jaollisuus2 != 0)
+                {
+                    Console.WriteLine("hastag Vuosi on karkausvuosi.");
+
+                }
             }
-            else if (jaollisuus1 != 0)
+            else if (jaollisuus2 != 0)
             {
                 Console.WriteLine("Vuosi ei ole karkausvuosi.");
             }
