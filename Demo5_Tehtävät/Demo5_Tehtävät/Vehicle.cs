@@ -11,6 +11,15 @@ namespace Demo5_Tehtävät
         public string Brand { get; set; }
         public string Model { get; set; }
         
+        public void RemoveTyres()
+        {
+            tyres.Clear();
+        }
+
+        public void AddTyre(Tyre t)
+        {
+            tyres.Add(t);
+        }
 
         public Vehicle(string brand, string model)
         {
@@ -29,10 +38,15 @@ namespace Demo5_Tehtävät
         {
             string s = "Vehicle: " + Brand + ", " + Model;
 
+            if(tyres.Count == 0)
+            {
+                s += "\nNo tyres.";
+            }
+
             foreach (Tyre t in tyres)
             {
                 s += "\n";
-                s += ToString();
+                s += t.ToString();
             
             }
             return s;

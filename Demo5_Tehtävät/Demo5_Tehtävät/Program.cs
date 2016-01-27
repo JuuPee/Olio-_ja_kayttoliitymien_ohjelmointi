@@ -14,8 +14,19 @@ namespace Demo5_Tehtävät
 
             Console.WriteLine(mycar.ToString());
 
+            mycar.RemoveTyres();
+
+            Console.WriteLine(mycar.ToString());
+
             Console.WriteLine();
 
+            mycar.AddTyre(new Tyre("Nokia", "Hakkapeliitta", "255/458/17"));
+            mycar.AddTyre(new Tyre("Nokia", "Hakkapeliitta", "255/458/17"));
+            mycar.AddTyre(new Tyre("Nokia", "Hakkapeliitta", "255/458/17"));
+
+            Console.WriteLine(mycar.ToString());
+            
+            Console.WriteLine();
         }
     }
 }
