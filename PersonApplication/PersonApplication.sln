@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodyMorpvision", "BodyMorpv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo4_Teht3", "Demo4_Teht3\Demo4_Teht3.csproj", "{CC0168F4-DD6B-45DE-8EE4-902E923F71D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo4_Teht5", "Demo4_Teht4\Demo4_Teht5.csproj", "{FE5FBEAC-91DF-42F4-B76F-A87E4B938938}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CC0168F4-DD6B-45DE-8EE4-902E923F71D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC0168F4-DD6B-45DE-8EE4-902E923F71D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC0168F4-DD6B-45DE-8EE4-902E923F71D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5FBEAC-91DF-42F4-B76F-A87E4B938938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5FBEAC-91DF-42F4-B76F-A87E4B938938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5FBEAC-91DF-42F4-B76F-A87E4B938938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5FBEAC-91DF-42F4-B76F-A87E4B938938}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
