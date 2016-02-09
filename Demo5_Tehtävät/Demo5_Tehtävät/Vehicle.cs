@@ -36,6 +36,7 @@ namespace Demo5_Tehtävät
         }
         public override string ToString()
         {
+            
             string s = "Vehicle: " + Brand + ", " + Model;
 
             if(tyres.Count == 0)
